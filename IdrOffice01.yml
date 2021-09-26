@@ -1,0 +1,65 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 170.00000, !h Z: 150.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: sza/AIC:Special/AIF:AI_NPC_Sza
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 150.00000, !h Z: 150.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rco/AIC:Special/AIF:AI_NPC_Rco
+    - !h Arg:
+        - {!h ArgArg: !l 1, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 1, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 0, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 0, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 135.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: ObjectWorkbench
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 195.00000, !h Z: 190.00000, !h Y: 0.00000}
+      !h ActorName: ObjectATM
+    - !h AngleY: !l 90
+      !h Pos: {!h X: 125.00000, !h Z: 185.00000, !h Y: 0.00000}
+      !h ActorName: ObjectLostItemBox
+    - !h Pos: {!h X: 160.00000, !h Z: 124.25000, !h Y: 24.00000}
+      !h ActorName: ObjectAnalogClock
+      !h String: IdrObjOfficeClock/None/None//XLinkOn
+    - !h AngleY: !l 339
+      !h Pos: {!h X: 152.00000, !h Z: 132.00000, !h Y: 7.50000}
+      !h ActorName: ObjectElectricFan
+      !h String: IdrObjOfficeDeskFan/ObjectElectricFan/ON//
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 200.75000, !h Z: 133.50000, !h Y: 22.50000}
+      !h ActorName: ObjectOfficeWallFan
+      !h String: IdrObjOfficeWallMountedFan/ObjectElectricFan/ON//
+    - !h Pos: {!h X: 187.20000, !h Z: 158.00000, !h Y: 6.60000}
+      !h ActorName: ObjectSeasonDeco
+      !h String: IdrObjOfficeFlower
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeB
+      !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 215.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+  !h IndoorName: Office
+  !h StructureName: Office

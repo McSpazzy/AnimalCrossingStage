@@ -1,0 +1,69 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 1
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 190.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: InsectMuseumActorMgr}
+    - {!h ActorName: FishMuseumActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+    - !h Arg:
+        - {!h ArgArg: !l 6, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 180.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:0
+    - !h Arg:
+        - {!h ArgArg: !l 6, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 140.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:1
+    - !h Arg:
+        - {!h ArgArg: !l 6, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 30, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 160.00000, !h Z: 178.00000, !h Y: 0.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:2
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_0
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 270
+      !h Pos: {!h X: 235.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect1
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 85.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect_2
+  !h IndoorName: MuseumInsect
+  !h StructureName: Museum

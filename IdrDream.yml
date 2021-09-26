@@ -1,0 +1,24 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 100.00000, !h Z: 145.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: tap/AIC:Normal/AIF:AI_NPC_Tap
+    - {!h ActorName: ActorNetDreamLand}
+  !h CommonFile:
+    - commonIndoor
+  !h IndoorName: Dream
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 100.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 144.50000, !h Z: 145.00000, !h Y: 0.00000}

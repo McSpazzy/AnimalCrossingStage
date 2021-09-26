@@ -1,0 +1,82 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 1
+  !h ActorList:
+    - !h AngleY: !l 150
+      !h Pos: {!h X: 105.60000, !h Z: 237.60000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: MuseumFossilActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+    - !h Arg:
+        - {!h ArgArg: !l 7, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h AngleY: !l 0
+      !h Pos: {!h X: 165.00000, !h Z: 240.00000, !h Y: 10.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:0
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 25, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 40, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h AngleY: !l 135
+      !h Pos: {!h X: 257.50000, !h Z: 52.50000, !h Y: 25.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:1
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h AngleY: !l 45
+      !h Pos: {!h X: 275.00000, !h Z: 275.00000, !h Y: 10.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:2
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFossil_0
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 180
+      !h Pos: {!h X: 80.00000, !h Z: 310.00000, !h Y: 0.00000}
+      !h Width: 40.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToFossil_0
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFossil_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 270
+      !h Pos: {!h X: 310.00000, !h Z: 240.00000, !h Y: 0.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToFossil_2
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFossil_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 270
+      !h Pos: {!h X: 310.00000, !h Z: 40.00000, !h Y: 25.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: !u 2773315241
+  !h IndoorName: MuseumFossil
+  !h StructureName: Museum

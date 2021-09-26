@@ -1,0 +1,24 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cDemo
+    - cKeepFade
+    - !l 1822880267
+  !h UIList:
+    - {!h UIName: DreamBG}
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rco/AIC:Demo/AIF:AI_Demo/DMF:SNPC_rco_92_OtherSettings
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 5.00000}
+      !h ActorName: CameraTagActor
+      !h String: Root
+  !h CommonFile:
+    - commonIndoor
+  !h IndoorName: SpotlightScene

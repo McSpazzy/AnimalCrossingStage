@@ -1,0 +1,22 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cOutdoor
+    - cDrum
+    - cMainField
+    - cDemo
+    - cDispFieldWater
+  !h ActorList:
+    - {!h ActorName: InsectFieldActorMgr}
+    - {!h ActorName: FishFieldActorMgr}
+    - {!h ActorName: ObjectSnowBallActorMgr}
+    - {!h ActorName: SeafoodFieldActorMgr}
+    - {!h ActorName: ShellfishFieldActorMgr}
+    - {!h ActorName: WaterFall}
+    - {!h ActorName: ObjectBalloonActorMgr}
+    - {!h ActorName: ActorEventStartDemo}
+  !h CommonFile:
+    - commonOutdoor

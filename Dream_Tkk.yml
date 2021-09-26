@@ -1,0 +1,25 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cDemo
+    - cKeepFade
+  !h UIList:
+    - {!h UIName: DreamBG}
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: tkkA/AIC:Demo/AIF:AI_NPC_Tkk_Dream/DMF:Tutorials_Prologue_Tkk
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 5.00000}
+      !h ActorName: CameraTagActor
+      !h String: Root
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: FtrViewerActor
+  !h CommonFile:
+    - commonIndoor
+  !h IndoorName: SpotlightScene

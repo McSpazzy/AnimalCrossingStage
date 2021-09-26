@@ -1,0 +1,73 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 170.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 155.00000, !h Z: 145.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rco/AIC:Special/AIF:AI_NPC_Rco
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 2, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 2, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 1, !h ArgIndex: !l 3}
+      !h AngleY: !l 0
+      !h Pos: {!h X: 175.00000, !h Z: 140.00000, !h Y: 0.00000}
+      !h ActorName: ObjectWorkbench
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 185.00000, !h Z: 185.00000, !h Y: 0.00000}
+      !h ActorName: ObjectATM
+    - !h AngleY: !l 90
+      !h Pos: {!h X: 135.00000, !h Z: 145.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rct/AIC:Special/AIF:AI_NPC_Rct
+    - !h AngleY: !l 45
+      !h Pos: {!h X: 145.00000, !h Z: 165.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rcm/AIC:Special/AIF:AI_NPC_Rcm
+    - !h AngleY: !l 90
+      !h Pos: {!h X: 135.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h ActorName: ObjectLostItemBox
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: ObjectTanukichi00Deco
+      !h String: IdrObjTanukichiDeco
+    - !h AngleY: !l 22
+      !h Pos: {!h X: 134.40000, !h Z: 135.80000, !h Y: 10.00000}
+      !h ActorName: ObjectAnalogClock
+      !h String: IdrObjTanukichiClock/None/None/TanukichiClock
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeB
+      !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 210.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+  !h IndoorName: Tanukichi
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 155.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 151.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 179.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 155.00000, !h Z: 145.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 155.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 155.00000, !h Z: 155.00000, !h Y: 0.00000}

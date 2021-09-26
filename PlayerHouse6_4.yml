@@ -1,0 +1,31 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cPlayerHouse
+    - cAutoSave
+  !h IndoorRoom: !l 4
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 190.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: CockroachActorMgr}
+  !h CommonFile:
+    - commonIndoor
+    - commonPlayerHouse
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: DownStairs
+      !h StageName: PlayerHouse6
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 270
+      !h Pos: {!h X: 175.00000, !h Z: 200.00000, !h Y: 0.00000}
+      !h Width: 15.00000
+      !h NextInfoIndex: !l 4
+      !h CreateParam: cStairsUpIn
+  !h IndoorName: PlayerHouse6
+  !h StructureName: PlayerHouse6

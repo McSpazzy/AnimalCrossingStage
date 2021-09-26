@@ -1,0 +1,17 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h UIList:
+    - {!h UIName: MainMenu}
+  !h ActorList:
+    - {!h ActorName: ActorGrowUpDemo}
+    - {!h ActorName: ActorVillageBroadcastDemo, !h Parent: ActorGrowUpDemo}
+    - {!h ActorName: NpcActorMgr}
+    - {!h ActorName: FgActorParent}
+    - {!h ActorName: CameraMgr}
+    - {!h ActorName: FtrActorMgr}
+    - {!h ActorName: EventFlowSystemActorMgr}
+    - {!h ActorName: ActorSystemFlowLauncher, !h String: System_GameClose}
+    - {!h ActorName: NetStageMgr}

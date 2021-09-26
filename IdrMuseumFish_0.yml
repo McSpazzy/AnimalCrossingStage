@@ -1,0 +1,70 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 180
+      !h Pos: {!h X: 110.00000, !h Z: 254.70000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: FishMuseumActorMgr}
+    - {!h ActorName: SeafoodMuseumActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 86, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 118.00000, !h Z: 145.00000, !h Y: 50.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:0
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 100, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 25, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 25, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 110.00000, !h Z: 175.00000, !h Y: 22.50000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:1
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 140, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h AngleY: !l 0
+      !h Pos: {!h X: 78.00000, !h Z: 236.00000, !h Y: 0.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:2
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFish_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 180
+      !h Pos: {!h X: 50.00000, !h Z: 290.00000, !h Y: -10.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToMuseumFish_2
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFish_1
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 270
+      !h Pos: {!h X: 265.00000, !h Z: 242.50000, !h Y: 10.00000}
+      !h Width: 35.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToMuseumFish_1
+  !h IndoorName: MuseumFish
+  !h StructureName: Museum

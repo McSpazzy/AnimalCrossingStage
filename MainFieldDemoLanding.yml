@@ -1,0 +1,30 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cOutdoor
+    - cDrum
+    - cMainField
+    - cDemo
+    - cKeepFade
+    - cDispFieldWater
+  !h UIList:
+    - {!h UIName: MovieTitleLogo}
+  !h ActorList:
+    - {!h ActorName: InsectFieldActorMgr}
+    - {!h ActorName: FishFieldActorMgr}
+    - {!h ActorName: ObjectSnowBallActorMgr}
+    - {!h ActorName: SeafoodFieldActorMgr}
+    - {!h ActorName: ShellfishFieldActorMgr}
+    - {!h ActorName: WaterFall}
+    - {!h ActorName: ObjectBalloonActorMgr}
+    - {!h ActorName: ActorEventStartDemo}
+    - !h Arg:
+        - {!h ArgArg: !l 2, !h ArgIndex: !l 0}
+      !h ActorName: ActorSystemFlowLauncher
+      !h String: Tutorials_Prologue_DemoLanding/Root
+    - {!h ActorName: AirportDemoAirplaneShadow}
+  !h CommonFile:
+    - commonOutdoor

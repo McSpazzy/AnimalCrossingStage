@@ -1,0 +1,48 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cShop
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 140.00000, !h Z: 200.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 315
+      !h Pos: {!h X: 155.00000, !h Z: 175.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: fox/AIC:Special/AIF:AI_NPC_Fox_Shop
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: !u 3945601388
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h AngleY: !l 270
+      !h Pos: {!h X: 155.00000, !h Z: 200.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cStairsDownInGragity
+      !h ReferenceKey: Entrance
+  !h IndoorName: Tsunekichi
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 115.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 115.00000, !h Z: 175.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 135.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 155.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 175.00000, !h Z: 145.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 195.00000, !h Z: 145.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 158.25200, !h Z: 180.99860, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 120.00000, !h Z: 157.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 120.00000, !h Z: 181.50000, !h Y: 0.00000}
+        - !h Pos: {!h X: 140.00000, !h Z: 157.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 157.00000, !h Y: 0.00000}

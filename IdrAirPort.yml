@@ -1,0 +1,64 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+  !h UIList:
+    - {!h UIName: VersionGuide}
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 187.00000, !h Z: 145.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: dod/AIC:Special/AIF:AI_NPC_AirPort
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 152.50000, !h Y: 0.00000}
+      !h ActorName: ObjectAirportGateActor
+      !h String: IdrObjFlapperGate/ObjectAirportGate/None/Gate
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 212.50000, !h Z: 156.00000, !h Y: 0.00000}
+      !h ActorName: ObjectMessageCardRack
+    - !h Pos: {!h X: 135.00000, !h Z: 150.00000, !h Y: 0.00000}
+      !h ActorName: ObjectGeneralActor
+      !h String: IdrObjAirPortStand////
+    - !h Pos: {!h X: 186.00000, !h Z: 115.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: doc/AIC:Special/AIF:AI_NPC_Doc_Airport
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: CameraTagActor
+      !h String: Root
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 245.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+  !h IndoorName: AirPort
+  !h StructureName: Airport
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 135.00000, !h Z: 125.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 125.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 155.00000, !h Z: 177.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 155.00000, !h Z: 125.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 190.00000, !h Z: 125.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 160.00000, !h Z: 170.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 125.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 190.00000, !h Z: 125.00000, !h Y: 0.00000}

@@ -1,0 +1,44 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 2
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 175.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: InsectMuseumActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_1
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 180
+      !h Pos: {!h X: 50.00000, !h Z: 205.00000, !h Y: 0.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect_1
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_0
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 180
+      !h Pos: {!h X: 270.00000, !h Z: 205.00000, !h Y: 0.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 2
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect_0
+  !h IndoorName: MuseumInsect
+  !h StructureName: Museum

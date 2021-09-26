@@ -1,0 +1,42 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cDemo
+    - cAutoSave
+  !h UIList:
+    - {!h UIName: PrologueBG}
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 120.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rcm/AIC:Demo/DMF:Tutorials_Prologue1_Charactermaking
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 120.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rct/AIC:Demo
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: CameraTagActor
+      !h String: Root
+    - !h Pos: {!h X: 190.00000, !h Z: 145.00000, !h Y: -5.50000}
+      !h ActorName: ObjectATM
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: ObjectTourCounterDemoSignBoard
+      !h String: IdrObjTourCounterDemoSignBoard/None/None/IdrObjTourCounterDemoSignBoard
+  !h CommonFile:
+    - commonIndoor
+  !h IndoorName: TourCounterDemo
+  !h StructureName: Airport
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 120.00000, !h Z: 160.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 166.00000, !h Z: 160.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 120.00000, !h Z: 160.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 156.00000, !h Z: 160.00000, !h Y: 0.00000}

@@ -1,0 +1,60 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 170.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: MuseumFossilActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+    - !h Arg:
+        - {!h ArgArg: !l 6, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 130.00000, !h Z: 235.00000, !h Y: 5.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:0
+    - !h Arg:
+        - {!h ArgArg: !l 6, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 195.00000, !h Z: 235.00000, !h Y: 5.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:1
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: !u 3945601388
+      !h StageName: IdrMuseumEnt01
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeC
+      !h AngleY: !l 180
+      !h Pos: {!h X: 162.50000, !h Z: 255.00000, !h Y: 0.00000}
+      !h Width: 25.00000
+      !h NextInfoIndex: !l 3
+      !h CreateParam: cStairsDownInGragity
+      !h ReferenceKey: ToEnt01
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFossil_1
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 0
+      !h Pos: {!h X: 162.50000, !h Z: 35.00000, !h Y: 0.00000}
+      !h Width: 25.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToFossil_1
+  !h IndoorName: MuseumFossil
+  !h StructureName: Museum

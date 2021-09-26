@@ -1,0 +1,29 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cPhotoStudio
+    - cExtendIsland
+  !h IndoorRoom: !l 5
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 190.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: UpStairs
+      !h StageName: PhotoStudio
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 90
+      !h Pos: {!h X: 145.00000, !h Z: 210.00000, !h Y: 0.00000}
+      !h Width: 15.00000
+      !h NextInfoIndex: !l 5
+      !h CreateParam: cStairsDownIn
+  !h IndoorName: PhotoStudio

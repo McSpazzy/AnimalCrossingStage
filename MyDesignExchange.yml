@@ -1,0 +1,19 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - !u 2207959429
+    - cDemo
+    - cUI
+  !h UIList:
+    - {!h UIName: MyDesignExchangeCover}
+  !h ActorList:
+    - !h Arg:
+        - {!h ArgArg: !l 1, !h ArgIndex: !l 0}
+      !h ActorName: ActorSystemFlowLauncher
+      !h String: Obj_WorldMyDesignGallery_01_MainScene
+    - {!h ActorName: EventFlowSystemActorMgr}
+    - {!h ActorName: ActorMyDesignExchange}

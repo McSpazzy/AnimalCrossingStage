@@ -1,0 +1,68 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 255.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 345
+      !h Pos: {!h X: 172.00000, !h Z: 215.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: owl/AIC:Special/AIF:AI_NPC_Owl
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 265.00000, !h Y: 0.00000}
+      !h Width: 40.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_UseBgCheck
+      !h ReferenceKey: ToMainField
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumFish_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 270
+      !h Pos: {!h X: 220.00000, !h Z: 230.00000, !h Y: 0.00000}
+      !h Width: 40.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToFish2
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_0
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 90
+      !h Pos: {!h X: 100.00000, !h Z: 230.00000, !h Y: 0.00000}
+      !h Width: 40.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect0
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: !u 4070442139
+      !h StageName: IdrMuseumFossil_0
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeC
+      !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 175.50000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cStairsUpInGravity
+      !h ReferenceKey: ToFossil_0
+  !h IndoorName: MuseumEnt
+  !h StructureName: Museum

@@ -1,0 +1,43 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cDemo
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 185.00000, !h Z: 145.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: dod/AIC:Demo/DMF:Demo_IdrAirPortRetireVisitor
+    - !h Arg:
+        - {!h ArgArg: !l 2, !h ArgIndex: !l 0}
+      !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 168.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: NpcPlayer/AIC:Demo
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 152.50000, !h Y: 0.00000}
+      !h ActorName: ObjectAirportGateActor
+      !h String: IdrObjFlapperGate/ObjectAirportGate/None/Gate
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 212.50000, !h Z: 156.50000, !h Y: 0.00000}
+      !h ActorName: ObjectMessageCardRack
+    - !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: CameraTagActor
+      !h String: Root
+  !h CommonFile:
+    - commonIndoor
+  !h IndoorName: AirPort
+  !h StructureName: Airport
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 160.00000, !h Z: 168.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 125.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 190.00000, !h Z: 125.00000, !h Y: 0.00000}

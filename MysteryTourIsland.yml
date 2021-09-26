@@ -1,0 +1,29 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cOutdoor
+    - cDrum
+    - cAutoSave
+    - cMysteryTour
+    - cDispFieldWater
+  !h ActorList:
+    - !h AngleY: !l 90
+      !h Pos: {!h X: 390.00000, !h Z: 615.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 403.00000, !h Z: 615.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: doc/AIC:Special/AIF:AI_NPC_Doc_MisteryTour
+    - !h Pos: {!h X: 420.00000, !h Z: 590.00000, !h Y: 4.00000}
+      !h ActorName: StructureAirplaneActor
+    - {!h ActorName: ObjectBuoyActorMgr}
+    - {!h ActorName: InsectFieldActorMgr}
+    - {!h ActorName: FishFieldActorMgr}
+    - {!h ActorName: WaterFall}
+    - {!h ActorName: SeafoodFieldActorMgr}
+  !h CommonFile:
+    - commonOutdoor

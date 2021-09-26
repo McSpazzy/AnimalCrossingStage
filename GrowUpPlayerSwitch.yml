@@ -1,0 +1,17 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cDemo
+    - cKeepFade
+    - !l 1822880267
+    - cGrowUp
+    - cSystem
+  !h ActorList:
+    - {!h ActorName: EventFlowSystemActorMgr}
+    - !h Arg:
+        - {!h ArgArg: !l 1, !h ArgIndex: !l 0}
+      !h ActorName: ActorSystemFlowLauncher
+      !h String: System_GrowUp/PlayerSwitch

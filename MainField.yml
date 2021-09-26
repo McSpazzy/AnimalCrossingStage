@@ -1,0 +1,45 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cOutdoor
+    - cDrum
+    - cMainField
+    - cAutoSave
+    - cDispFieldWater
+  !h UIList:
+    - {!h UIName: MapMini}
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 444.00000, !h Z: 920.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: ObjectBuoyActorMgr}
+    - {!h ActorName: InsectFieldActorMgr}
+    - {!h ActorName: FishFieldActorMgr}
+    - {!h ActorName: ObjectSnowBallActorMgr}
+    - {!h ActorName: SeafoodFieldActorMgr}
+    - {!h ActorName: SeafoodJellyfishActorMgr}
+    - {!h ActorName: ShellfishFieldActorMgr}
+    - {!h ActorName: WaterFall}
+    - {!h ActorName: ObjectBalloonActorMgr}
+    - {!h ActorName: ActorEventStartDemo}
+    - {!h ActorName: ASysVillageScoreMgr}
+    - !h Arg:
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 50, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 50, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 50, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 0.00000, !h Z: 0.00000, !h Y: 0.00000}
+      !h ActorName: CameraAreaActor
+      !h String: PlazaAreaForCountDownDemo
+  !h CommonFile:
+    - commonOutdoor
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 452.28610, !h Z: 929.59660, !h Y: 0.00000}
+        - !h Pos: {!h X: 362.47520, !h Z: 928.90500, !h Y: 0.00000}
+        - !h Pos: {!h X: 270.65560, !h Z: 874.39810, !h Y: -4.00000}
+        - !h Pos: {!h X: 257.16330, !h Z: 707.29150, !h Y: -4.00000}
+        - !h Pos: {!h X: 515.26540, !h Z: 804.18450, !h Y: 0.00000}

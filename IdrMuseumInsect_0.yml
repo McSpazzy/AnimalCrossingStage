@@ -1,0 +1,65 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 145.00000, !h Z: 210.00000, !h Y: 30.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: InsectMuseumActorMgr}
+    - {!h ActorName: FishMuseumActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 25, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h AngleY: !l 0
+      !h Pos: {!h X: 265.00000, !h Z: 80.00000, !h Y: 20.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:0
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumEnt01
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 270
+      !h Pos: {!h X: 315.00000, !h Z: 310.00000, !h Y: 10.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 2
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToEnt01
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_1
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 90
+      !h Pos: {!h X: 10.00000, !h Z: 305.00000, !h Y: 0.00000}
+      !h Width: 30.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect1
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumInsect_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeB
+      !h AngleY: !l 0
+      !h Pos: {!h X: 225.00000, !h Z: 5.00000, !h Y: 20.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToInsect_2
+  !h IndoorName: MuseumInsect
+  !h StructureName: Museum

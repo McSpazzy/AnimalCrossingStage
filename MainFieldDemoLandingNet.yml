@@ -1,0 +1,31 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cOutdoor
+    - cDrum
+    - cMainField
+    - cDemo
+    - cKeepFade
+    - cDispFieldWater
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 0.00000, !h Z: 0.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: InsectFieldActorMgr}
+    - {!h ActorName: FishFieldActorMgr}
+    - {!h ActorName: ObjectSnowBallActorMgr}
+    - {!h ActorName: SeafoodFieldActorMgr}
+    - {!h ActorName: ShellfishFieldActorMgr}
+    - {!h ActorName: WaterFall}
+    - {!h ActorName: ObjectBalloonActorMgr}
+    - {!h ActorName: ActorEventStartDemo}
+    - !h Arg:
+        - {!h ArgArg: !l 2, !h ArgIndex: !l 0}
+      !h ActorName: ActorSystemFlowLauncher
+      !h String: Demo_MainFieldLandingNet/Root
+    - {!h ActorName: AirportDemoAirplaneShadow}
+  !h CommonFile:
+    - commonOutdoor

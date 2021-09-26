@@ -1,0 +1,101 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cShop
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h Pos: {!h X: 160.00000, !h Z: 195.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 330
+      !h Pos: {!h X: 180.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h String: hgh/AIC:Special/AIF:AI_NPC_Hgh_Shop
+    - !h Pos: {!h X: 120.00000, !h Z: 132.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h String: hgs/AIC:Special/AIF:AI_NPC_Hgs
+    - !h Pos: {!h X: 118.00000, !h Z: 139.04000, !h Y: 0.00000}
+      !h ActorName: ObjectTailorSewingMachine
+      !h String: IdrObjTailorSewingMachine/ObjectTailorSewingMachine/On/SewingMachine
+    - !h Arg:
+        - {!h ArgArg: !l 0, !h ArgIndex: !l 0}
+      !h AngleY: !l 20
+      !h Pos: {!h X: 115.00000, !h Z: 170.00000, !h Y: 0.00000}
+      !h ActorName: ObjectMannequin
+    - !h Arg:
+        - {!h ArgArg: !l 1, !h ArgIndex: !l 0}
+      !h AngleY: !l 20
+      !h Pos: {!h X: 115.00000, !h Z: 190.00000, !h Y: 0.00000}
+      !h ActorName: ObjectMannequin
+    - !h Pos: {!h X: 204.42600, !h Z: 165.00000, !h Y: 0.00000}
+      !h ActorName: ObjectFittingRoom
+    - !h Pos: {!h X: 140.00000, !h Z: 115.00000, !h Y: 20.00000}
+      !h ActorName: CameraTagActor
+      !h String: MyDesignCenter0
+    - !h Pos: {!h X: 115.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h ActorName: CameraTagActor
+      !h String: MannequinCenter
+    - !h Pos: {!h X: 150.00000, !h Z: 115.00000, !h Y: 20.00000}
+      !h ActorName: CameraTagActor
+      !h String: MyDesignCenter1
+    - !h Pos: {!h X: 160.00000, !h Z: 115.00000, !h Y: 20.00000}
+      !h ActorName: CameraTagActor
+      !h String: MyDesignCenter2
+    - !h Pos: {!h X: 170.00000, !h Z: 115.00000, !h Y: 20.00000}
+      !h ActorName: CameraTagActor
+      !h String: MyDesignCenter3
+    - !h Scale: 1.00000
+      !h Pos: {!h X: 185.00000, !h Z: 115.00000, !h Y: 0.00000}
+      !h ActorName: ObjectMyDesignExchanger
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 180
+      !h Pos: {!h X: 170.00000, !h Z: 230.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: Entrance
+  !h IndoorName: Tailor
+  !h StructureName: Tailor
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 160.00000, !h Z: 140.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 170.00000, !h Z: 140.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 150.00000, !h Z: 140.00000, !h Y: 5.00000}
+        - !h Pos: {!h X: 170.00000, !h Z: 170.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 170.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 150.00000, !h Z: 170.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 140.00000, !h Z: 115.00000, !h Y: 15.00000}
+        - !h Pos: {!h X: 150.00000, !h Z: 115.00000, !h Y: 15.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 115.00000, !h Y: 15.00000}
+        - !h Pos: {!h X: 170.00000, !h Z: 115.00000, !h Y: 15.00000}
+        - !h Pos: {!h X: 140.00000, !h Z: 115.00000, !h Y: 25.00000}
+        - !h Pos: {!h X: 150.00000, !h Z: 115.00000, !h Y: 25.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 115.00000, !h Y: 25.00000}
+        - !h Pos: {!h X: 170.00000, !h Z: 115.00000, !h Y: 25.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 135.00000, !h Z: 100.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 175.00000, !h Z: 115.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 135.00000, !h Z: 115.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 175.00000, !h Z: 125.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 195.00000, !h Z: 155.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 215.00000, !h Z: 165.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 195.00000, !h Z: 165.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 215.00000, !h Z: 180.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 110.00000, !h Z: 165.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 120.00000, !h Z: 175.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 110.00000, !h Z: 185.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 120.00000, !h Z: 195.00000, !h Y: 0.00000}

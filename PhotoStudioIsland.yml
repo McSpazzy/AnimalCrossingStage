@@ -1,0 +1,30 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cOutdoor
+    - cDrum
+    - cAutoSave
+    - cDispFieldWater
+    - cExtendIsland
+  !h ActorList:
+    - !h AngleY: !l 90
+      !h Pos: {!h X: 375.00000, !h Z: 615.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 388.00000, !h Z: 615.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: doc/AIC:Special/AIF:AI_NPC_Doc_CommuneIsland
+    - !h Pos: {!h X: 330.00000, !h Z: 475.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: spn/AIC:Special/AIF:AI_NPC_Spn_Commune
+    - !h Pos: {!h X: 410.00000, !h Z: 590.00000, !h Y: 4.00000}
+      !h ActorName: StructureAirplaneActor
+    - {!h ActorName: WaterFall}
+    - {!h ActorName: BbsBirdActorMgr}
+  !h CommonFile:
+    - commonOutdoor

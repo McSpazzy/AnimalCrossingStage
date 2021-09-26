@@ -1,0 +1,82 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cPlayerHouse
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 190.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: CockroachActorMgr}
+  !h CommonFile:
+    - commonIndoor
+    - commonPlayerHouse
+  !h NextInfoDataList:
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 180
+      !h Pos: {!h X: 160.00000, !h Z: 225.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: Entrance
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: PlayerHouse0_1
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 95.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: PlayerHouse0_2
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 90
+      !h Pos: {!h X: 95.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+    - !h 17e534ec: 15.00000
+      !h OutDemoType: WalkNext
+      !h StageName: PlayerHouse0_3
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 270
+      !h Pos: {!h X: 225.00000, !h Z: 180.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: UpStairs
+      !h StageName: PlayerHouse0_4
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 90
+      !h Pos: {!h X: 145.00000, !h Z: 210.00000, !h Y: 0.00000}
+      !h Width: 15.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cStairsDownIn
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: DownStairs
+      !h StageName: PlayerHouse0_5
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeA
+      !h AngleY: !l 270
+      !h Pos: {!h X: 175.00000, !h Z: 210.00000, !h Y: 0.00000}
+      !h Width: 15.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cStairsUpIn
+  !h IndoorName: PlayerHouse0
+  !h StructureName: PlayerHouse0

@@ -1,0 +1,81 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cShop
+    - cAutoSave
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - !h AngleY: !l 0
+      !h Pos: {!h X: 160.00000, !h Z: 170.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rcm/AIC:Special/AIF:AI_NPC_Rcm_Shop
+    - !h AngleY: !l 345
+      !h Pos: {!h X: 165.00000, !h Z: 155.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: rct/AIC:Special/AIF:AI_NPC_Rct_Shop
+    - !h Pos: {!h X: 140.00000, !h Z: 160.00000, !h Y: 0.00000}
+      !h ActorName: Npc
+      !h Parent: NpcActorMgr
+      !h String: hgh/AIC:Special/AIF:AI_NPC_Hgh
+    - !h Arg:
+        - {!h ArgArg: !l 2, !h ArgIndex: !l 0}
+      !h ActorName: ActorSystemFlowLauncher
+      !h String: SNPC_rcm_03_RenualOpen/Rcm_RenualOpen1_ConvHgh_Prepare
+    - !h AngleY: !l 270
+      !h Pos: {!h X: 200.08000, !h Z: 180.90000, !h Y: 0.00000}
+      !h ActorName: ObjectGeneralActor
+      !h String: IdrObjMarket01Fan/IdrObjCommon/On/Market01Fan/XLinkOn
+    - !h Pos: {!h X: 133.20000, !h Z: 126.10000, !h Y: 0.00000}
+      !h ActorName: ObjectMarketShowcase
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 10.00000
+      !h OutDemoType: WalkOut
+      !h StageName: MainField
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeB
+      !h AngleY: !l 180
+      !h Pos: {!h X: 150.00000, !h Z: 210.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l -1
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: Entrance
+  !h IndoorName: Market
+  !h StructureName: Market
+  !h RailList:
+    - !h RailData:
+        - !h Pos: {!h X: 180.00000, !h Z: 170.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 170.00000, !h Z: 170.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 185.00000, !h Z: 140.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 160.00000, !h Z: 140.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 130.00000, !h Z: 160.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 140.00000, !h Z: 160.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 150.00000, !h Z: 160.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 120.00000, !h Z: 120.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 145.00000, !h Z: 135.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 140.00000, !h Z: 160.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 145.00000, !h Z: 175.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 145.00000, !h Z: 215.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 149.99900, !h Z: 199.99900, !h Y: 0.00000}
+        - !h Pos: {!h X: 155.39400, !h Z: 183.23690, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 152.00000, !h Z: 162.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 149.00000, !h Z: 152.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 142.00000, !h Z: 166.00000, !h Y: 0.00000}
+    - !h RailData:
+        - !h Pos: {!h X: 195.00000, !h Z: 155.00000, !h Y: 0.00000}
+        - !h Pos: {!h X: 143.00000, !h Z: 140.00000, !h Y: 0.00000}

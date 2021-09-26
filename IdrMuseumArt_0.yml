@@ -1,0 +1,115 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  !h Environment:
+    - cIndoor
+    - cAutoSave
+    - cMuseum
+  !h IndoorRoom: !l 0
+  !h ActorList:
+    - !h AngleY: !l 180
+      !h Pos: {!h X: 50.00000, !h Z: 280.00000, !h Y: 0.00000}
+      !h ActorName: PlayerActorMgr
+    - {!h ActorName: MuseumArtActorMgr}
+    - {!h ActorName: MuseumNameboardActorMgr}
+    - {!h ActorName: !l 1407911812}
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 160, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 60, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 150.00000, !h Z: 70.00000, !h Y: 30.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:0
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 230.00000, !h Z: 155.00000, !h Y: 24.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:1
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 260.00000, !h Z: 155.00000, !h Y: 24.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:2
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 230.00000, !h Z: 295.00000, !h Y: 14.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:3
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 190.00000, !h Z: 295.00000, !h Y: 14.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:4
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 140.00000, !h Z: 75.00000, !h Y: 34.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:5
+    - !h Arg:
+        - {!h ArgArg: !l 3, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 170.00000, !h Z: 75.00000, !h Y: 34.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:6
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 30, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 105.00000, !h Z: 165.00000, !h Y: 20.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:7
+    - !h Arg:
+        - {!h ArgArg: !l 5, !h ArgIndex: !l 0}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 1}
+        - {!h ArgArg: !l 10, !h ArgIndex: !l 2}
+        - {!h ArgArg: !l 20, !h ArgIndex: !l 3}
+      !h Pos: {!h X: 50.00000, !h Z: 240.00000, !h Y: 5.00000}
+      !h ActorName: CameraAreaActor
+      !h String: CameraArea:8
+  !h CommonFile:
+    - commonIndoor
+  !h NextInfoDataList:
+    - !h 17e534ec: 5.00000
+      !h OutDemoType: WalkNext
+      !h StageName: IdrMuseumEnt02
+      !h Depth: 10.00000
+      !h NextGotoSettingType: cTypeD
+      !h AngleY: !l 180
+      !h Pos: {!h X: 50.00000, !h Z: 310.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 4
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToEnt02
+    - !h 17e534ec: 5.00000
+      !h OutDemoType: WalkNext
+      !h StageName: !l 176874432
+      !h Depth: 10.00000
+      !h AngleY: !l 0
+      !h Pos: {!h X: 220.00000, !h Z: 0.00000, !h Y: 0.00000}
+      !h Width: 20.00000
+      !h NextInfoIndex: !l 0
+      !h CreateParam: cWalkIn_NoUseBgCheck
+      !h ReferenceKey: ToArt_1
+  !h IndoorName: MuseumArt
+  !h StructureName: Museum
